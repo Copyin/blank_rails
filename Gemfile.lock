@@ -54,6 +54,8 @@ GEM
     mime-types-data (3.2016.0221)
     minitest (5.8.4)
     multi_json (1.11.2)
+    pg (0.18.4)
+    puma (3.2.0)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -112,6 +114,8 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  pg
+  puma
   rails (= 4.1.14)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
